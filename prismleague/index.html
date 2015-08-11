@@ -9,6 +9,17 @@ body {
 	background: #cccccc;
 }
 
+#title {
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#titletext {
+	position: relative;
+	top: -24px;
+}
+
 .pokemon1 {
 	height: 100px;
 	width: 100px;
@@ -170,9 +181,8 @@ p {
 </head>
 <body>
 
-<img src="plimages/pokeball.png" height=80px />
-
-The Prism League
+<div id="title"><img src="plimages/pokeball.png" height=80px />
+<span id="titletext">The Prism League</span></div>
 
 <div class="trainer" id="sable">
 	<div class="trainername">Sable</div>
