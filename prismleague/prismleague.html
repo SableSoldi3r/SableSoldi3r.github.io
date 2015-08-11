@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>Prism League</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+<style type="text/css">
+
+body {
+	font-family: trebuchet ms;
+	background: #cccccc;
+}
+
+.pokemon1 {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5px;
+	position: absolute;
+	top: 110px;
+	left: 20px;
+}
+.pokemon2 {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5px;
+	position: absolute;
+	top: 110px;
+	left: 130px;
+}
+.pokemon3 {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 8px #000000;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5px;
+	position: absolute;
+	top: 110px;
+	left: 240px;
+}
+
+.trainer {
+	border-radius: 10px;
+	border: 3px solid #444444;
+	color: #ffffff;
+	width: 540px;
+	height: 360px;
+	margin: 24px auto;
+	padding: 20px;
+	position: relative;
+	box-shadow: 2px 2px 10px #000000;
+}
+
+#sable {
+	border-color: #484038;
+	background: #705848;
+	background-image: url(images/illusionbadge.png);
+	background-size: 140px;
+	background-position: 416 10;
+	background-repeat: no-repeat;
+}
+
+#lizzy {
+	border-color: #903028;
+	background: #f05030;
+	background-image: url(images/solarbadge.png);
+	background-size: 140px;
+	background-position: 416 10;
+	background-repeat: no-repeat;
+}
+
+#phil {
+	border-color: #789010;
+	background: #a8b820;
+	background-image: url(images/ThoraxBadge.png);
+	background-size: 140px;
+	background-position: 416 10;
+	background-repeat: no-repeat;
+}
+
+#court {
+	border-color: #484038;
+	background: #903028;
+	background-image: url(images/BrawlerBadge.png);
+	background-size: 140px;
+	background-position: 416 10;
+	background-repeat: no-repeat;
+}
+
+.trainername {
+	font-size: 3em;
+	font-family: courier new;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px #000000;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
+.type {
+	font-size: 1.2em;
+	font-family: lucida console;
+	text-shadow: 1px 1px 5px #000000;
+	position: absolute;
+	top: 76px;
+}
+
+.badgename {
+	font-size: 1.2em;
+	font-family: lucida console;
+	text-shadow: 1px 1px 5px #000000;
+	position: absolute;
+	top: 160px;
+	right: 10px;
+	width: 170px;
+	text-align: center;
+}
+
+.introtext {
+	font-size: 1.1em;
+	font-family: palatino linotype;
+	font-style: italic;
+	position: absolute;
+	bottom: 40px;
+	width: 320px;
+}
+
+.qrcode {
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+	width: 166px;
+	height: 166px;
+	background-size: 200px;
+	background-position: -17px -17px;
+}
+
+#sableqr {
+	background-image: url(http://s3-ap-northeast-1.amazonaws.com/3ds1-pgl-secretbase/61b2acd0-770c-11e4-a514-0adb4ca3f454.png);
+}
+
+#lizzyqr {
+	background-image: url(http://s3-ap-northeast-1.amazonaws.com/3ds1-pgl-secretbase/61b2acd0-770c-11e4-a514-0adb4ca3f454.png);
+}
+
+#philqr {
+	background-image: url(http://s3-ap-northeast-1.amazonaws.com/3ds1-pgl-secretbase/61b2acd0-770c-11e4-a514-0adb4ca3f454.png);
+}
+
+#courtqr {
+	background-image: url(http://s3-ap-northeast-1.amazonaws.com/3ds1-pgl-secretbase/61b2acd0-770c-11e4-a514-0adb4ca3f454.png);
+}
+
+p {
+	margin-top: 6px;
+	margin-bottom: 0px;
+}
+
+</style>
+</head>
+<body>
+
+<img src="images/pokeball.png" height=80px />
+
+The Prism League
+
+<div class="trainer" id="sable">
+	<div class="trainername">Sable</div>
+	<div class="type">Dark-Type Leader</div>
+	<div class="badgename">Illusion Badge</div>
+	<div class="pokemon1" style="background-image: url(http://smogon.com/dex/media/sprites/xy/zoroark.gif); background-color: #a8a878; border-color: #484038;"></div>
+	<div class="pokemon2" style="background-image: url(http://smogon.com/dex/media/sprites/xy/greninja.gif); background-color: #a8a878; border-color: #484038;"></div>
+	<div class="pokemon3" style="background-image: url(http://smogon.com/dex/media/sprites/xy/sableye.gif); background-color: #a8a878; border-color: #484038;"></div>
+	<div class="introtext">Can you see, challenger?
+	<p>Are you able to see what lies before you, or is it merely an illusion?
+	<p>You shouldn't fear the darkness, challenger.
+	<p>Fear what it hides.
+	</div>
+	<div class="qrcode" id="sableqr"></div>
+</div>
+
+<div class="trainer" id="lizzy">
+	<div class="trainername">Lizzy</div>
+	<div class="type">Fire-Type Leader</div>
+	<div class="badgename">Solar Badge</div>
+	<div class="introtext">Life is a serious battle, and you have to use the tools you're given.
+	<p>It's more important to master the cards you're holding than to complain about the ones your opponents were dealt.
+	<p>Let us begin. And may the best Trainer win! Contests like this are proof that you are really living...</div>
+	<div class="qrcode" id="lizzyqr"></div>
+</div>
+
+<div class="trainer" id="phil">
+	<div class="trainername">Phil</div>
+	<div class="type">Bug-Type Leader</div>
+	<div class="badgename">Thorax Badge</div>
+	<div class="introtext">Life is a serious battle, and you have to use the tools you're given.
+	<p>It's more important to master the cards you're holding than to complain about the ones your opponents were dealt.
+	<p>Let us begin. And may the best Trainer win! Contests like this are proof that you are really living...</div>
+	<div class="qrcode" id="lizzyqr"></div>
+</div>
+
+<div class="trainer" id="court">
+	<div class="trainername">Court</div>
+	<div class="type">Fighting-Type Leader</div>
+	<div class="badgename">Brawler Badge</div>
+	<div class="introtext">Life is a serious battle, and you have to use the tools you're given.
+	<p>It's more important to master the cards you're holding than to complain about the ones your opponents were dealt.
+	<p>Let us begin. And may the best Trainer win! Contests like this are proof that you are really living...</div>
+	<div class="qrcode" id="lizzyqr"></div>
+</div>
+
+</body>
+</html>
